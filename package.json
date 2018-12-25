@@ -4,6 +4,7 @@
   "description": "a reactive programming language",
   "main": "index.js",
   "dependencies": {
+    "array-flatten": "^2.1.2",
     "path": "^0.12.7"
   },
   "devDependencies": {},
