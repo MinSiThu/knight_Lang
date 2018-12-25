@@ -4,6 +4,6 @@ let parser = require('./runtime/parser');
 
 (async function(params) {
     let data = await reader(path.join(__dirname,'hello.kn'));
-    let tokens = parser(data);
+    let HeapMemory = parser(data);
     
 })()

@@ -1,7 +1,5 @@
-$a = 
-12
-;    
-$b=
-'knight';$c = true;
+$a=;
+$b='knight';
+$c = true;
 
-@A dependentOn $a,$b {$a+$b+$c} 
+@A dependentOn $a,$b {$a+ $b+ $c} 

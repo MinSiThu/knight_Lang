@@ -1,12 +1,11 @@
-let flatten = require('array-flatten');
+let _ = require('underscore');
 
-module.exports = async function(data){
+module.exports = function(data){
     let lines = data.split('\n');
     let statementGrid = lines.map(lineParser);
-    let statementArray = await flatten(statementGrid);
+    let statementArray = _.flatten(statementGrid);
     let pureStatementArray = statementArray.map(statement=>statement.trim());
-    console.log(pureStatementArray);
-    
+    return pureStatementArray;
 }
 
 function lineParser(line){
