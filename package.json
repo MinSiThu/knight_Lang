@@ -1,0 +1,28 @@
+{
+  "name": "knight_lang",
+  "version": "1.0.0",
+  "description": "a reactive programming language",
+  "main": "index.js",
+  "dependencies": {
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinSiThu/knight_Lang.git"
+  },
+  "keywords": [
+    "reactive",
+    "programming",
+    "language"
+  ],
+  "author": "min si thu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MinSiThu/knight_Lang/issues"
+  },
+  "homepage": "https://github.com/MinSiThu/knight_Lang#readme"
+}
